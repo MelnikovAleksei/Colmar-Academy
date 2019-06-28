@@ -1,0 +1,66 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+}
+
+.desktop-header {
+  border: 1px black solid;
+  margin: 0 24px;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mobile-header {
+  display: none;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  height: 32px;
+  border: 1px black solid;
+}
+
+.logo img {
+  height: 45px;
+}
+
+.logo span {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.logo .academy {
+  color: silver;
+}
+
+.nav {
+  font-size: 18px;
+}
+.nav a {
+  text-decoration: none;
+  color: black;
+  margin-left: 16px;
+}
+
+.nav a:hover {
+  color: silver;
+}
+
+.banner-desktop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: silver;
+}
+
+.banner-desktop img {
+  width: 60%;
+}
+
+.banner-desktop img,
+.headlines-desktop {
+  margin: 32px 24px;
+}
