@@ -1,3 +1,6 @@
+html {
+  font-size: 18px;
+}
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0 auto;
@@ -51,16 +54,95 @@ body {
 
 .banner-desktop {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   background-color: silver;
 }
 
 .banner-desktop img {
-  width: 60%;
+  max-width: 60%;
 }
 
-.banner-desktop img,
-.headlines-desktop {
+.banner-desktop img {
   margin: 32px 24px;
+}
+
+.headlines-desktop {
+  max-width: 30%;
+  color: dimgray;
+}
+
+.headlines-desktop h1 {
+  font-size: 40px;
+  font-weight: bolder;
+  margin-bottom: 24px;
+}
+
+.headlines-desktop h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.headlines-desktop span {
+  font-weight: bold;
+  color: white;
+  background-color: dimgray;
+  display: flex;
+  justify-content: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.headlines-desktop span:hover {
+  color: black;
+}
+
+.banner-mobile {
+  display: none; /*max-width 715px*/
+}
+
+.information-block-image-mobile {
+  display: none;
+}
+
+.information {
+  display: flex;
+  align-items: flex-start;
+  margin: 32px 0px 32px 24px;
+}
+
+.information-main {
+  border: 1px solid black;
+  max-width: 60%;
+  margin-right: 24px;
+}
+
+.information-main img {
+  max-width: 100%;
+
+}
+
+.information-main-description {
+  width: 60%;
+  margin: 0px 24px 32px 24px;
+}
+
+.information-secondary {
+  max-width: 40%;
+}
+
+.information-block {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+}
+.information-block-image-desktop {
+  max-width: 35%;
+  height: auto;
+  margin: 16px;
+}
+
+.information-block-decription {
+  max-width: 65%;
 }
