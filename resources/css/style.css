@@ -146,3 +146,58 @@ body {
 .information-block-decription {
   max-width: 65%;
 }
+
+.course {
+  border: 1px solid black;
+  margin: 32px 72px;
+}
+
+.course-headline {
+  margin: 32px 0;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.course-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.course-block {
+  border: 1px solid black;
+  max-width: 30%;
+}
+.course-block img {
+  height: auto;
+  width: 100%;
+}
+
+.course-block:nth-child(3n) {
+  margin-right: 0;
+}
+
+.course-block {
+  margin-right: 32px;
+}
+
+.thesis {
+  border: 1px solid black;
+}
+
+.thesis-headline {
+  text-align: center;
+  font-size: 40px;
+  margin: 32px 0;
+  font-weight: bold;
+}
+
+.thesis-content-main video, h2, p {
+  max-width: 60%;
+  margin: 32px 24px;
+}
+
+.thesis-content-secondary {
+  max-width: 40%;
+}
