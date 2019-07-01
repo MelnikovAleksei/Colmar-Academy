@@ -319,6 +319,22 @@ footer {
 
 /* for mobile screen */
 
+@media screen and (max-width: 370px) {
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    h2 {
+      font-size: 0.9rem;
+    }
+
+    p, span, a {
+      font-size: 0.8rem;
+    }
+
+}
+
 @media screen and (max-width: 850px) {
 
 /* mobile header style */
