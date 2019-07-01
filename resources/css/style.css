@@ -181,6 +181,7 @@ a {
 
 .information-block a {
   color: blue;
+  padding: 0;
 }
 
 .information-block a:hover {
