@@ -38,7 +38,7 @@ a {
 /* header style */
 
 header {
-  background-color: #006AFF;
+  background-color: #0f6db5;
 }
 
 .desktop-header {
@@ -64,7 +64,7 @@ header {
 }
 
 .logo:hover .academy {
-  color: black;
+  color: #efbd31;
 }
 
 .logo img {
@@ -82,8 +82,9 @@ header {
 }
 
 .sign-in {
-  background-color: #0f6db5;
+  background-color: #efbd31;
 }
+
 
 .menu a:hover,
 .footer-menu a:hover {
@@ -97,7 +98,7 @@ header {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-color: #0f6db5;
+  background-color: #5b8bb1;
 }
 
 .banner-desktop img {
@@ -123,7 +124,7 @@ header {
 
 .banner-headlines-desktop a {
   color: white;
-  background-color: #006AFF;
+  background-color: #efbd31;
   display: flex;
   justify-content: center;
   padding-top: 0.44rem;
@@ -177,7 +178,7 @@ header {
 
 .information-main-description h1:hover {
   color: white;
-  background-color: #ff0000;
+  background-color: #efbd31;
 }
 
 .information-main-description p {
@@ -217,9 +218,14 @@ header {
 }
 
 .guest-lecture a {
-  background-color: #ff0000;
+  background-color: #efbd31;
   color: white;
   padding: 0.2rem 0.5rem;
+}
+
+.guest-lecture a:hover {
+  background-color: white;
+  color: #006AFF;
 }
 
 
@@ -236,7 +242,7 @@ header {
 /* course style */
 
 .course {
-  background-color: #006AFF;
+  background-color: #5b8bb1;
   padding: 0 4.5rem;
   margin-bottom: 1.77rem;
 }
@@ -327,7 +333,7 @@ header {
 }
 
 .fisma {
-  background-color: #ff0000;
+  background-color: #efbd31;
   color: white;
 }
 
@@ -392,7 +398,7 @@ footer {
 /* mobile header style */
 
   header {
-    background-color: white;
+    background-color: #efbd31;
   }
 
   .desktop-header {
@@ -436,7 +442,7 @@ footer {
   .banner-headlines-mobile a {
     font-weight: bold;
     color: white;
-    background-color: #006AFF;
+    background-color: #efbd31;
     display: flex;
     justify-content: center;
     padding-top: 0.44rem;
@@ -516,13 +522,13 @@ footer {
   .course-block {
     max-width: 100%;
     margin: 0;
-    background-color: #ff0000;
+    background-color: #efbd31;
     color: white;
     display: flex;
   }
 
   .course-block:nth-child(3) {
-    border: 0.7rem solid #0f6db5;
+    border: 0.3rem solid #0f6db5;
   }
 
   .course-block h2 {
