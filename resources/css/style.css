@@ -56,16 +56,16 @@ span {
   color: silver;
 }
 
-.nav {
+.menu {
   font-size: 18px;
 }
-.nav a {
+.menu a {
   text-decoration: none;
   color: black;
   margin-left: 16px;
 }
 
-.nav a:hover {
+.menu a:hover {
   color: silver;
 }
 
@@ -292,7 +292,7 @@ footer {
   padding: 16px 24px;
 }
 
-.footer-nav a {
+.footer-menu a {
   margin-left: 15px;
   text-decoration: none;
   color: black;
@@ -419,7 +419,7 @@ footer {
   .thesis-content-second {
     display: none;
   }
-  .footer-nav {
+  .footer-menu {
     display: none;
   }
   .footer-copyright {
