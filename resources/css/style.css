@@ -21,7 +21,7 @@ p, span, a {
   font-size: 1rem;
   line-height: normal;
   font-weight: 200;
-  color: dimgray;
+  color: black;
   text-decoration: none;
 }
 
@@ -36,6 +36,10 @@ a {
 /* for desktop screen */
 
 /* header style */
+
+header {
+  background-color: #006AFF;
+}
 
 .desktop-header {
   margin: 0 1.33rem;
@@ -56,7 +60,7 @@ a {
 }
 
 .logo:hover .colmar {
-  color: silver;
+  color: white;
 }
 
 .logo:hover .academy {
@@ -68,19 +72,23 @@ a {
 }
 
 .logo .academy {
-  color: silver;
+  color: white;
 }
 
 .menu a {
-  color: dimgray;
+  color: white;
   margin-left: 0.38rem;
   font-weight: 200;
 }
 
+.sign-in {
+  background-color: #0f6db5;
+}
+
 .menu a:hover,
 .footer-menu a:hover {
-  color: white;
-  background-color: dimgray;
+  color: #0f6db5;
+  background-color: white;
 }
 
 /* banner style */
@@ -89,7 +97,7 @@ a {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-color: silver;
+  background-color: #0f6db5;
 }
 
 .banner-desktop img {
@@ -102,7 +110,7 @@ a {
 
 .banner-headlines-desktop {
   max-width: 30%;
-  color: black;
+  color: white;
 }
 
 .banner-headlines-desktop h1 {
@@ -115,15 +123,16 @@ a {
 
 .banner-headlines-desktop a {
   color: white;
-  background-color: dimgray;
+  background-color: #006AFF;
   display: flex;
   justify-content: center;
   padding-top: 0.44rem;
   padding-bottom: 0.44rem;
+  font-weight: 600;
 }
 
 .banner-headlines-desktop a:hover {
-  color: black;
+  color: #0f6db5;
   background-color: white;
 }
 
@@ -160,6 +169,15 @@ a {
 .information-main-description h1 {
   margin-top: 1.77rem;
   margin-bottom: 1.33rem;
+  background-color: #0f6db5;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+}
+
+.information-main-description h1:hover {
+  color: white;
+  background-color: #ff0000;
 }
 
 .information-main-description p {
@@ -181,18 +199,29 @@ a {
 
 .information-block a {
   color: blue;
-  padding: 0;
+  padding: 0.2rem 0.5rem;
 }
 
 .information-block a:hover {
-  background-color: blue;
-  opacity: 0.7;
+  background-color: #006AFF;
   color: white;
 }
 
 .guest-lecture {
-  background-color: silver;
+  background-color: #0f6db5;
+  color: white;
 }
+
+.guest-lecture p {
+  color: white;
+}
+
+.guest-lecture a {
+  background-color: #ff0000;
+  color: white;
+  padding: 0.2rem 0.5rem;
+}
+
 
 .information-block-image-desktop {
   max-width: 35%;
@@ -207,7 +236,7 @@ a {
 /* course style */
 
 .course {
-  background-color: silver;
+  background-color: #006AFF;
   padding: 0 4.5rem;
   margin-bottom: 1.77rem;
 }
@@ -215,6 +244,7 @@ a {
 .course-headline {
   padding: 1.77rem 0;
   text-align: center;
+  color: white;
 }
 
 .course-content {
@@ -229,6 +259,7 @@ a {
   margin-right: 1.77rem;
   margin-bottom: 1.77rem;
 }
+
 .course-block img {
   height: auto;
   width: 100%;
@@ -263,6 +294,11 @@ a {
   text-align: center;
   margin-top: 3.5rem;
   margin-bottom: 1.77rem;
+  color: black;
+}
+
+.thesis-headline:hover {
+  color: #0f6db5;
 }
 
 .thesis-content-main {
@@ -291,7 +327,17 @@ a {
 }
 
 .fisma {
-  background-color: silver;
+  background-color: #ff0000;
+  color: white;
+}
+
+.fisma:hover, .fisma:hover p {
+  background-color: #0f6db5;
+  color: white;
+}
+
+.fisma p {
+  color: white;
 }
 
 .thesis-content-block img {
@@ -316,6 +362,11 @@ footer {
 
 .footer-menu a {
   margin-left: 0.83rem;
+}
+
+.footer-menu a:hover {
+  background-color: #0f6db5;
+  color: white;
 }
 
 /* for mobile screen */
