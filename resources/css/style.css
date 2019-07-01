@@ -391,6 +391,10 @@ footer {
 
 /* mobile header style */
 
+  header {
+    background-color: white;
+  }
+
   .desktop-header {
     display: none;
   }
@@ -420,9 +424,9 @@ footer {
 
   .banner-headlines-mobile {
     max-width: 100%;
-    background-color: silver;
+    background-color: #0f6db5;
     padding: 1.77rem 0.88rem;
-    color: black;
+    color: white;
   }
 
   .banner-headlines-mobile h1 {
@@ -432,7 +436,7 @@ footer {
   .banner-headlines-mobile a {
     font-weight: bold;
     color: white;
-    background-color: dimgray;
+    background-color: #006AFF;
     display: flex;
     justify-content: center;
     padding-top: 0.44rem;
@@ -479,7 +483,7 @@ footer {
   }
 
   .guest-lecture {
-    background-color: white;
+    background-color: #006AFF;
   }
 
 /* mobile course style */
@@ -512,8 +516,13 @@ footer {
   .course-block {
     max-width: 100%;
     margin: 0;
-    background-color: silver;
+    background-color: #ff0000;
+    color: white;
     display: flex;
+  }
+
+  .course-block:nth-child(3) {
+    border: 0.7rem solid #0f6db5;
   }
 
   .course-block h2 {
@@ -529,6 +538,7 @@ footer {
   .thesis-headline {
     margin-top: 1.77rem;
     margin-bottom: 0.88rem;
+    color: #0f6db5;
   }
 
   .thesis-content {
