@@ -1,4 +1,4 @@
-  {
+
 	"name" : "Colmar Academy",
 	"short_name" : "CA",
 	"description" : "Student PWA",
@@ -38,5 +38,4 @@
   }],
   "related_applications": [{
     "platform": "web"
-  }],
-}
+  }]
