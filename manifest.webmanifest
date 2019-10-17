@@ -2,6 +2,7 @@
 	"name": "Colmar Academy",
 	"short_name": "CA",
 	"description": "Student PWA",
+	"display": "fullscreen",
 	"start_url": "https://melnikovaleksei.github.io/Colmar-Academy/",
   "icons": [{
     "src": "resources/images/touch/icon-72x72.png",
