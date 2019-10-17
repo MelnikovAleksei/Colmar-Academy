@@ -4,6 +4,26 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144592465-1"></script>
   <script>
+      // This is the "Offline page" service worker
+s
+    // Add this below content to your HTML page, or add the js file to your page at the very top to register service worker
+
+    // Check compatibility for the browser we're running this in
+    if ("serviceWorker" in navigator) {
+      if (navigator.serviceWorker.controller) {
+        console.log("[PWA Builder] active service worker found, no need to register");
+      } else {
+        // Register the service worker
+        navigator.serviceWorker
+          .register("pwabuilder-sw.js", {
+            scope: "./"
+          })
+          .then(function (reg) {
+            console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
+          });
+      }
+    }
+
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
@@ -14,11 +34,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="73esylwYohxy7-PdiaeRg0SwvfxsS4yI7yGIKS0gr7U" />
     <meta name="Description" content="Student site of Aleksei Melnikov">
-    <link rel="manifest" href="./manifest.json">
+
     <link rel="stylesheet" href="./resources/css/reset.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./resources/css/style.css">
     <title>Colmar Academy</title>
+    <link rel='manifest' href='/manifest.webmanifest'>
   </head>
   <body>
     <header>
