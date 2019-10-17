@@ -5,7 +5,6 @@
   "display": "fullscreen",
   "background_color": "yellow",
   "description": "Student site of Aleksei Melnikov",
-  ​​"orientation": "any",
   "icons": [{
     "src": "resources/images/touch/icon-72x72.png",
     "sizes": "72x72",
