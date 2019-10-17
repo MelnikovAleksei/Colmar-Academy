@@ -1,10 +1,8 @@
-{
-  "name": "Colmar Academy",
-  "short_name": "CA",
-  "start_url": ".",
-  "display": "fullscreen",
-  "background_color": "yellow",
-  "description": "Student site of Aleksei Melnikov",
+  {
+	"name" : "Colmar Academy",
+	"short_name" : "CA",
+	"description" : "Student PWA",
+	"start_url" : "https://melnikovaleksei.github.io/Colmar-Academy/",
   "icons": [{
     "src": "resources/images/touch/icon-72x72.png",
     "sizes": "72x72",
